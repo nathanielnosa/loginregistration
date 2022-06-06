@@ -25,7 +25,7 @@
     
     <div class="container-fluid forms">
         <div class="row">
-            <div class="col-md-4 mx-auto">
+            <div class="col-md-4 mx-auto" id="two">
                 <div class="display-6 my-5 text-white text-center">
                     Create Account
                 </div>
@@ -33,23 +33,25 @@
                     <form action="">
                         <div class="form-floating mb-3">
                             <input type="text" class="form-control" id="floatingInput" placeholder="Fullname">
-                            <label for="floatingInput">Full Name</label>
+                            <label class="light" for="floatingInput">Full Name</label>
                         </div>
                         <div class="form-floating mb-3">
                             <input type="text" class="form-control" id="floatingInput" placeholder="username">
-                            <label for="floatingInput">User Name</label>
+                            <label class="light" for="floatingInput">User Name</label>
                         </div>
                         <div class="form-floating mb-3">
                             <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                            <label for="floatingInput">Email address</label>
+                            <label class="light" for="floatingInput">Email address</label>
                         </div>
-                        <div class="form-floating mb-3">
+                        <div class="form-floating input-group mb-3">
                             <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                            <label for="floatingPassword">Password <span class="text-end"><i class="bi bi-eye-slash"></i></span></label>
+                            <span class="input-group-text" id="basic-addon2"><i class="bi bi-eye-slash"></i></span>
+                            
+                            <label class="light" for="floatingPassword">Password <span class="text-end"></span></label>
                         </div>
                         <div class="form-floating mb-3">
                             <input type="password" class="form-control" id="floatingPassword" placeholder="Confirm Password">
-                            <label for="floatingPassword">Confirm Password</label>
+                            <label class="light" for="floatingPassword">Confirm Password</label>
                         </div>
                         <div class="d-grid" id="grid">
                             <a href="index.html" class="btn">Submit</a>

@@ -1,14 +1,23 @@
 .forms{
     background: url(/assets/img/backgroundreg.svg);
-<<<<<<< HEAD
     background-size: cover;
     background-repeat: no-repeat;
 }
-.form-floating, .form-control{
+
+.forms .row #two .car form .form-floating .form-control{
     background-color: #31572c5d;
+    color: white;
+}
+
+.light{
     color: white;
     font-weight: bold;
 }
+
+.text-end{
+    justify-content: space-around;
+}
+
 #grid{
     background-color: #96b85d;
     border-radius: .3rem;
@@ -18,8 +27,6 @@
     border-radius: .3rem;
     color: white;
     font-weight: bold;
-}
-=======
 }
 
 /* dashboard styling */
@@ -34,4 +41,3 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
->>>>>>> dc6cb4aa4487f6bdcf0a9ecad0c5d9debb60d913
