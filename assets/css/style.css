@@ -2,6 +2,7 @@
     background: url(/assets/img/backgroundreg.svg);
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100vh;
 }
 
 .forms .row #two .car form .form-floating .form-control{
