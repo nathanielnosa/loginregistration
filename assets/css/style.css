@@ -1,6 +1,20 @@
 body{
     background: url(/assets/img/backgroundreg.svg);
 }
+/* card styling */
+/* card styling */
+.card{
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+#login .forms .buttons{
+    justify-items: auto;
+}
+#login .forms .buttons .icon{
+    padding: .5rem;
+    border-radius: 80%;
+    float: right;
+}
 
 /* dashboard styling */
 /* dashboard styling */
