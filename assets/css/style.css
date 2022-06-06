@@ -1,5 +1,6 @@
 .forms{
     background: url(/assets/img/backgroundreg.svg);
+<<<<<<< HEAD
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -18,3 +19,19 @@
     color: white;
     font-weight: bold;
 }
+=======
+}
+
+/* dashboard styling */
+/* dashboard styling */
+.right-panel{
+    background-color: #bfe3ce;
+}
+
+/* end dashboard styling */
+#index{
+    background: url(/assets/img/pexels-andrea-piacquadio-3756679.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+>>>>>>> dc6cb4aa4487f6bdcf0a9ecad0c5d9debb60d913
