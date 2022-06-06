@@ -1,5 +1,33 @@
-body{
+.forms{
     background: url(/assets/img/backgroundreg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.forms .row #two .car form .form-floating .form-control{
+    background-color: #31572c5d;
+    color: white;
+}
+
+.light{
+    color: white;
+    font-weight: bold;
+}
+
+.text-end{
+    justify-content: space-around;
+}
+
+#grid{
+    background-color: #96b85d;
+    border-radius: .3rem;
+}
+#grid:hover{
+    background-color: #132A13;
+    border-radius: .3rem;
+    color: white;
+    font-weight: bold;
 }
 /* card styling */
 /* card styling */
