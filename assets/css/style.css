@@ -9,3 +9,8 @@ body{
 }
 
 /* end dashboard styling */
+#index{
+    background: url(/assets/img/pexels-andrea-piacquadio-3756679.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
